@@ -5,6 +5,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  delete playlist.key["value"]
+  delete recipes.key["value"]
   return recipes
 }
